@@ -1,0 +1,7 @@
+.active {
+  display: block !important;
+}
+.hidden-overflow {
+  overflow: hidden;
+  height: 100%;
+}
