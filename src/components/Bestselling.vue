@@ -73,8 +73,6 @@ export default {
 </script>
 <style scoped>
 .best_selling {
-  max-width: 1600px;
-  margin-top: 120px;
 }
 .container {
   max-width: 1600px !important;
@@ -90,6 +88,7 @@ export default {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  margin-top: 120px;
 }
 .best_selling .header h3 {
   font-weight: 600;
