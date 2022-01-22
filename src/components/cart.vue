@@ -85,9 +85,10 @@ export default {
 /** cart list */
 
 .cart-list {
+  width: 50vw;
   height: unset;
   background-color: #fff;
-  width: 50vw;
+
   border: 1px solid black;
   border-radius: 10px;
   position: fixed;
@@ -242,13 +243,13 @@ export default {
 @media only screen and (max-width: 768px) {
   .cart-list {
     width: 95vw;
-    height: 98vh;
+    height: calc(98vh - 30px);
   }
 }
 @media only screen and (max-width: 480px) {
   .cart-list {
     width: 95vw;
-    height: 98vh;
+    height: calc(98vh - 30px);
   }
   .cart-list .cart-item .item-info h4 {
     font-size: 1.2rem;
