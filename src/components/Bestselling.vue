@@ -73,6 +73,7 @@ export default {
 </script>
 <style scoped>
 .best_selling {
+  max-width: 1600px;
 }
 .container {
   max-width: 1600px !important;

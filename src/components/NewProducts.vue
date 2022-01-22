@@ -72,7 +72,6 @@ export default {
 <style scoped>
 .new-products {
   max-width: 1600px;
-  margin-top: 120px;
 }
 .container {
   max-width: 1600px;
@@ -88,6 +87,8 @@ export default {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 120px;
 }
 .new-products .header h3 {
   font-weight: 600;
