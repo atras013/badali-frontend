@@ -1,36 +1,38 @@
 <template>
-  <section class="best_selling">
-    <div class="container">
-      <div class="header">
-        <h3>پر فروش ترین</h3>
-      </div>
-      <div class="swiper">
-        <swiper :options="swiperOptions" class="best_selling_swiper">
-          <swiper-slide
-            class="product_card swiper-slide"
-            v-for="product in products.slice(0, 8)"
-            :key="product.id"
-          >
-            <div class="product_card_img">
-              <a href="#">
-                <img :src="product.image" alt="" />
-              </a>
+  <section>
+    <div class="best_selling">
+      <div class="container">
+        <div class="header">
+          <h3>پر فروش ترین</h3>
+        </div>
+        <div class="swiper">
+          <swiper :options="swiperOptions" class="best_selling_swiper">
+            <swiper-slide
+              class="product_card swiper-slide"
+              v-for="product in products.slice(0, 8)"
+              :key="product.id"
+            >
+              <div class="product_card_img">
+                <a href="#">
+                  <img :src="product.image" alt="" />
+                </a>
 
-              <button @click="addToCart(product)" class="add_button">
-                افزودن به سبد خرید
-              </button>
-            </div>
-            <div class="product_content">
-              <div class="product_title">
-                <p class="product_name">{{ product.title }}</p>
-                <p class="product_price">{{ product.price }}</p>
+                <button @click="addToCart(product)" class="add_button">
+                  افزودن به سبد خرید
+                </button>
               </div>
+              <div class="product_content">
+                <div class="product_title">
+                  <p class="product_name">{{ product.title }}</p>
+                  <p class="product_price">{{ product.price }}</p>
+                </div>
 
-              <p class="product_category">{{ product.category_name }}</p>
-            </div>
-          </swiper-slide>
-        </swiper>
-        <div class="swiper-pagination swiper-pagination-bullets"></div>
+                <p class="product_category">{{ product.category_name }}</p>
+              </div>
+            </swiper-slide>
+          </swiper>
+          <div class="swiper-pagination swiper-pagination-bullets"></div>
+        </div>
       </div>
     </div>
   </section>
@@ -87,7 +89,7 @@ export default {
 .best_selling .header {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .best_selling .header h3 {
   font-weight: 600;

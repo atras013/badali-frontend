@@ -36,9 +36,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Yekan";
   direction: rtl;
-
-  padding: 0;
-  margin: 0;
   text-align: right;
   box-sizing: border-box;
 }
