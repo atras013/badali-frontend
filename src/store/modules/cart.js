@@ -68,8 +68,9 @@ export default {
         const sum = item.qyt * item.price;
         state.total -= sum;
         state.qyt--;
-        state.items.splice(productInCartIndex);
+        state.items.splice(productInCartIndex, 1);
       }
+      console.log(state.items);
     },
   },
   actions: {

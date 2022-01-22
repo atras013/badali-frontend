@@ -708,11 +708,18 @@ i {
     width: 45px;
     height: 40px;
   }
-  .nave-bar {
-    padding-right: 8px;
-  }
+
   .user-info span {
     margin-left: 3px;
+  }
+}
+@media only screen and (min-width: 412px) {
+  .nave-bar {
+    padding-right: 0;
+    padding-left: 8px;
+  }
+  .hamburger-menu {
+    padding-right: 0;
   }
 }
 @media only screen and (max-width: 361px) {

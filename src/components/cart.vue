@@ -173,6 +173,8 @@ export default {
 }
 .cart-list .cart-item .counter button {
   font-size: 1.2rem;
+  border: none;
+  background: #fff;
 }
 .cart-list .cart-item .item-info h4 {
   font-size: 1.4rem;

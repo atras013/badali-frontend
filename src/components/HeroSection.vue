@@ -343,8 +343,7 @@ export default {
 
 @media only screen and (max-width: 610px) {
   .slide,
-  .swiper-slide,
-  .slide img {
+  .swiper-slide {
     width: 500px !important;
     margin-left: 0px;
     height: 600px;
@@ -352,7 +351,7 @@ export default {
     object-fit: cover;
   }
   .slide .related-products {
-    display: none;
+    display: none !important;
   }
   .slide .slide-detail {
     justify-content: center;
@@ -365,8 +364,7 @@ export default {
 }
 @media only screen and (max-width: 544px) {
   .slide,
-  .swiper-slide,
-  .slide img {
+  .swiper-slide {
     width: 450px !important;
     margin-left: 0px;
     height: 600px;
@@ -377,8 +375,7 @@ export default {
 
 @media only screen and (max-width: 495px) {
   .slide,
-  .swiper-slide,
-  .slide img {
+  .swiper-slide {
     width: 400px !important;
     margin-left: 0px;
     height: 600px;
@@ -388,8 +385,7 @@ export default {
 }
 @media only screen and (max-width: 450px) {
   .slide,
-  .swiper-slide,
-  .slide img {
+  .swiper-slide {
     width: 350px !important;
     margin-left: 0px;
     height: 550px;
@@ -402,8 +398,7 @@ export default {
 }
 @media only screen and (max-width: 400px) {
   .slide,
-  .swiper-slide,
-  .slide img {
+  .swiper-slide {
     width: 300px !important;
     margin-left: 0px;
     height: 500px;
