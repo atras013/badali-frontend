@@ -567,11 +567,10 @@ i {
   margin: 0 16px 0 0;
 }
 .mobile-menu .close-btn {
-  margin: 0 16px 0 6px;
-  border: 1px solid rgb(156, 152, 152);
+  margin: 0 16px 0 16px;
 }
 .mobile-menu .close-btn ion-icon {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 .mobile-menu ul {
   list-style: none;
