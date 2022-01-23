@@ -243,7 +243,7 @@ export default {
 @media only screen and (max-width: 768px) {
   .cart-list {
     width: 95vw;
-    height: calc(98vh - 50px);
+    height: calc(98vh - 100px);
   }
 }
 @media only screen and (max-width: 480px) {

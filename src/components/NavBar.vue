@@ -545,6 +545,9 @@ i {
   overflow-y: auto;
   overflow-x: hidden;
   height: 100vh;
+  -webkit-box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
+  -moz-box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
+  box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
 }
 .mobile-menu ul {
   width: 100%;
@@ -555,9 +558,7 @@ i {
   width: 100%;
   display: grid;
   grid-template-rows: auto 2fr 1fr;
-  box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
-  -webkit-box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
-  -moz-box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
+
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -589,7 +590,7 @@ i {
 }
 
 .mobile-menu .social-media {
-  margin-bottom: 35px;
+  margin-bottom: 50px;
 }
 .mobile-menu .social-media ion-icon,
 .mobile-menu .social-media i {
