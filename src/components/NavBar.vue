@@ -552,7 +552,7 @@ i {
 .mobile-menu .mobile-menu-container {
   padding: 0 0;
   height: 100%;
-  width: 60vw;
+  width: 100%;
   display: grid;
   grid-template-rows: auto 2fr 1fr;
   box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
@@ -586,6 +586,10 @@ i {
 .mobile-menu li {
   margin: 0 0;
   width: 100%;
+}
+
+.mobile-menu .social-media {
+  margin-bottom: 35px;
 }
 .mobile-menu .social-media ion-icon,
 .mobile-menu .social-media i {
