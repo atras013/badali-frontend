@@ -11,7 +11,7 @@
               <ion-icon name="close-outline"></ion-icon>
             </span>
           </div>
-          <ul class="d-flex row align-items-start mt-5 p-0">
+          <ul class="mobile-menu-lists">
             <li>
               <div
                 @click="showMobileJewelrySubMenu"
@@ -76,7 +76,7 @@
             </li>
           </ul>
           <div
-            class="pt-4 social-media d-flex justify-content-center column align-items-center"
+            class="p-4 social-media d-flex justify-content-center column align-items-end"
           >
             <ion-icon name="logo-instagram"></ion-icon>
             <i class="fab fa-telegram"></i>
@@ -533,7 +533,7 @@ i {
 /** Mobile menu */
 
 .mobile-menu {
-  position: absolute;
+  position: fixed;
   right: 0;
   background-color: #fff;
   transform: translateX(430px);
@@ -541,19 +541,25 @@ i {
   display: none;
   visibility: hidden;
   opacity: 0;
-  z-index: 10;
+  z-index: 50;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 100vh;
 }
 .mobile-menu ul {
   width: 100%;
 }
 .mobile-menu .mobile-menu-container {
   padding: 0 0;
-  height: 100vh;
+  height: 100%;
   width: 60vw;
   display: grid;
+  grid-template-rows: auto 2fr 1fr;
   box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
   -webkit-box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
   -moz-box-shadow: -11px 1px 17px 0px rgba(23, 20, 20, 0.31);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .mobile-menu .logo-img {
   width: 60px;
@@ -570,8 +576,17 @@ i {
 .mobile-menu ul {
   list-style: none;
 }
+.mobile-menu-lists {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 8px;
+  margin-top: 50px;
+  row-gap: 18px;
+}
 .mobile-menu li {
   margin: 0 0;
+  width: 100%;
 }
 .mobile-menu .social-media ion-icon,
 .mobile-menu .social-media i {
